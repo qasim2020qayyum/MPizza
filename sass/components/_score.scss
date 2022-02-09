@@ -1,0 +1,87 @@
+.score {
+    height: 240px;
+    width: 100%;
+    background-color: #2b2b2b;
+    position: relative;
+    &_heading {
+        height: 15rem;
+        width: 35rem;
+        position: absolute;
+        left: 3rem;
+    }
+    &_food {
+        background-clip: text;
+        font-size: 1.5rem;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(to right, $color-pink 0%, $color-orange 50%, $color-yellow 100%);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    &_aim {
+        font-family: "Grand Hotel", sans-serif;
+        font-size: 5.5rem;
+        line-height: 4.4rem;
+        color: $color-white;
+        position: absolute;
+        top: 6rem;
+    }
+    &_iconsbar {
+        height: 12rem;
+        width: 45rem;
+        position: absolute;
+        top: 6rem;
+        left: 64rem;
+    }
+    &_icon-div1 {
+        height: 12rem;
+        width: 13rem;
+        text-align: center;
+        position: absolute;
+    }
+    &_icon-div2 {
+        height: 12rem;
+        width: 13rem;
+        position: absolute;
+        left: 14.7rem;
+        text-align: center;
+    }
+    &_icon-div3 {
+        height: 12rem;
+        width: 13rem;
+        position: absolute;
+        left: 30rem;
+        text-align: center;
+    }
+    &_icon {
+        height: 6rem;
+        width: 6rem;
+        position: absolute;
+        left: 3rem;
+        &-color {
+            background-clip: text;
+            font-size: 3.5rem;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-image: linear-gradient(to right, $color-pink 0%, $color-orange 50%,$color-yellow 100%);
+            position: absolute;
+            top: 1rem;
+            left: 0.5rem;
+        }
+    }
+    &_count{
+        font-size: 2.5rem;
+        position: absolute;
+        top:6rem;
+        left:3rem;
+        color: $color-white;
+    }
+    &_text{
+        font-size: 2rem;
+        color: $color-white;
+        position: absolute;
+        top: 8rem;
+        font-family: sans-serif;
+        top: 10rem;
+        left: 0rem;
+    }
+}

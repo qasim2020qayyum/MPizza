@@ -1,0 +1,58 @@
+.app {
+    height: 120rem;
+    width: 100%;
+    position: absolute;
+    top: 46rem;
+    background-color: $color-black;
+    &_div {
+        height: 22rem;
+        width: 55rem;
+        position: absolute;
+        left: 36rem;
+        top: 9rem;
+        text-align: center;
+    }
+    &_title {
+        color: $color-pink;
+        font-size: 1.7rem;
+        font-family: "poppins", sans-serif;
+    }
+    &_text {
+        font-family: "Grand hotel", sans-serif;
+        color: $color-white;
+        font-size: 6.5rem;
+    }
+    &_apple-box-1 {
+        height: 25rem;
+        width: 25rem;
+        position: absolute;
+        top: 35rem;
+        left: 37rem;
+        text-align: center;
+        &-img {
+            height: 15rem;
+            width: 15rem;
+            transition: width 2s, height 2s, transform 2s;
+            &:hover {
+                height: 25rem;
+                width: 25rem;
+                transform: rotate(360deg);
+            }
+        }
+        &-text {
+            font-size: 1.6rem;
+            font-family: sans-serif;
+            margin-top: 1rem;
+            color: $color-white;
+            cursor: pointer;
+        }
+    }
+    &_apple-box-2 {
+        height: 25rem;
+        width: 25rem;
+        position: absolute;
+        top: 81.3rem;
+        left: 65rem;
+        text-align: center;
+    }
+}

@@ -1,0 +1,87 @@
+.cards {
+    height: 86rem;
+    width: 100%;
+    background-color: $dark-gray;
+    position: relative;
+    &_imagesection {
+        &-1 {
+            @include cards;
+            top: 2rem;
+            left: 12rem;
+        }
+        &-2 {
+            @include cards;
+            top: 2rem;
+            left: 46rem;
+        }
+        &-3 {
+            @include cards;
+            top: 2rem;
+            left: 80rem;
+        }
+        &-4 {
+           @include cards;
+            top: 39rem;
+            left: 12rem;
+        }
+        &-5 {
+            @include cards;
+            top: 39rem;
+            left: 46rem;
+        }
+        &-6 {
+            @include cards;
+            top: 39rem;
+            left: 80rem;
+        }
+    }
+    &_image {
+        height: 25rem;
+        width: 29rem;
+        transition: all 0.2s ease-in;
+        opacity: 0.7;
+        &:hover {
+            transform: scale(1.1);
+            opacity: 1;
+        }
+    }
+    &_rates {
+        height: 7rem;
+        width: 29rem;
+        background-color:$color-dark-black;
+        position: absolute;
+        top: 25rem;
+    }
+    &_restaurent{
+        font-size:1.8rem;
+        color: $color-white;
+        position: absolute;
+        top:1.5rem;
+        left:3rem;
+        font-family: sans-serif;
+        cursor:pointer;
+        &:hover{
+            border-bottom:solid $color-white;
+        }
+    }
+    &_title{
+        font-size: 1.3rem;
+        font-family: cursive;
+        color:$color-gray;
+        position: absolute;
+        top:4rem;
+        left:3rem;
+    }
+    &_rating{
+        height:3rem;
+        width:12rem;
+        position: absolute;
+        top:1.5rem;
+        left:19rem;
+        display: inline;
+    }
+    .fa-star{
+        font-size: 1.2rem;
+        color: $color-yellow;
+    }
+}

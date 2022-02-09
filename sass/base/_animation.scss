@@ -1,0 +1,73 @@
+ @keyframes moveinleft1 {
+    0%{
+        left: -150px;
+    }
+    100%{
+        left: 0;
+    }
+}
+
+@keyframes toptobottom{
+    0%{
+        top:-100px;
+    }
+    100%{
+      top: 30px;
+    }
+}
+
+@keyframes top{
+    0%{
+        top:-50px
+    }
+    100%{
+        top:140px;
+    }
+}
+
+@keyframes rotation2 {
+    from {
+      transform:rotateY(0deg);
+    }
+    to {
+      transform:rotateY(359deg);
+    }
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  @keyframes moveinleft12 {
+    0%{
+        left: -150px;
+    }
+    100%{
+        left: 50px;
+    }
+}
+
+@keyframes moveinleft{
+    0%{
+        left: -50px;
+    }
+
+100%{
+    left: 50px;
+
+}    
+}
+
+@keyframes lefttoright{
+    0%{
+        left: -60px;
+    }
+    100%{
+        left: 60px;
+    }
+}

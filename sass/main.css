@@ -1,0 +1,1004 @@
+@-webkit-keyframes moveinleft1 {
+  0% {
+    left: -150px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes moveinleft1 {
+  0% {
+    left: -150px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@-webkit-keyframes toptobottom {
+  0% {
+    top: -100px;
+  }
+  100% {
+    top: 30px;
+  }
+}
+
+@keyframes toptobottom {
+  0% {
+    top: -100px;
+  }
+  100% {
+    top: 30px;
+  }
+}
+
+@-webkit-keyframes top {
+  0% {
+    top: -50px;
+  }
+  100% {
+    top: 140px;
+  }
+}
+
+@keyframes top {
+  0% {
+    top: -50px;
+  }
+  100% {
+    top: 140px;
+  }
+}
+
+@-webkit-keyframes rotation2 {
+  from {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(359deg);
+            transform: rotateY(359deg);
+  }
+}
+
+@keyframes rotation2 {
+  from {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(359deg);
+            transform: rotateY(359deg);
+  }
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@-webkit-keyframes moveinleft12 {
+  0% {
+    left: -150px;
+  }
+  100% {
+    left: 50px;
+  }
+}
+
+@keyframes moveinleft12 {
+  0% {
+    left: -150px;
+  }
+  100% {
+    left: 50px;
+  }
+}
+
+@-webkit-keyframes moveinleft {
+  0% {
+    left: -50px;
+  }
+  100% {
+    left: 50px;
+  }
+}
+
+@keyframes moveinleft {
+  0% {
+    left: -50px;
+  }
+  100% {
+    left: 50px;
+  }
+}
+
+@-webkit-keyframes lefttoright {
+  0% {
+    left: -60px;
+  }
+  100% {
+    left: 60px;
+  }
+}
+
+@keyframes lefttoright {
+  0% {
+    left: -60px;
+  }
+  100% {
+    left: 60px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.app {
+  height: 120rem;
+  width: 100%;
+  position: absolute;
+  top: 46rem;
+  background-color: black;
+}
+
+.app_div {
+  height: 22rem;
+  width: 55rem;
+  position: absolute;
+  left: 36rem;
+  top: 9rem;
+  text-align: center;
+}
+
+.app_title {
+  color: #fC2547;
+  font-size: 1.7rem;
+  font-family: "poppins", sans-serif;
+}
+
+.app_text {
+  font-family: "Grand hotel", sans-serif;
+  color: #fff;
+  font-size: 6.5rem;
+}
+
+.app_apple-box-1 {
+  height: 25rem;
+  width: 25rem;
+  position: absolute;
+  top: 35rem;
+  left: 37rem;
+  text-align: center;
+}
+
+.app_apple-box-1-img {
+  height: 15rem;
+  width: 15rem;
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, transform 2s;
+  transition: width 2s, height 2s, transform 2s, -webkit-transform 2s;
+}
+
+.app_apple-box-1-img:hover {
+  height: 25rem;
+  width: 25rem;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.app_apple-box-1-text {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  margin-top: 1rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.app_apple-box-2 {
+  height: 25rem;
+  width: 25rem;
+  position: absolute;
+  top: 81.3rem;
+  left: 65rem;
+  text-align: center;
+}
+
+.cards {
+  height: 86rem;
+  width: 100%;
+  background-color: #2B2B2B;
+  position: relative;
+}
+
+.cards_imagesection-1 {
+  height: 33rem;
+  width: 29rem;
+  overflow: hidden;
+  position: absolute;
+  top: 2rem;
+  left: 12rem;
+}
+
+.cards_imagesection-2 {
+  height: 33rem;
+  width: 29rem;
+  overflow: hidden;
+  position: absolute;
+  top: 2rem;
+  left: 46rem;
+}
+
+.cards_imagesection-3 {
+  height: 33rem;
+  width: 29rem;
+  overflow: hidden;
+  position: absolute;
+  top: 2rem;
+  left: 80rem;
+}
+
+.cards_imagesection-4 {
+  height: 33rem;
+  width: 29rem;
+  overflow: hidden;
+  position: absolute;
+  top: 39rem;
+  left: 12rem;
+}
+
+.cards_imagesection-5 {
+  height: 33rem;
+  width: 29rem;
+  overflow: hidden;
+  position: absolute;
+  top: 39rem;
+  left: 46rem;
+}
+
+.cards_imagesection-6 {
+  height: 33rem;
+  width: 29rem;
+  overflow: hidden;
+  position: absolute;
+  top: 39rem;
+  left: 80rem;
+}
+
+.cards_image {
+  height: 25rem;
+  width: 29rem;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  opacity: 0.7;
+}
+
+.cards_image:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  opacity: 1;
+}
+
+.cards_rates {
+  height: 7rem;
+  width: 29rem;
+  background-color: #0D0D0D;
+  position: absolute;
+  top: 25rem;
+}
+
+.cards_restaurent {
+  font-size: 1.8rem;
+  color: #fff;
+  position: absolute;
+  top: 1.5rem;
+  left: 3rem;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.cards_restaurent:hover {
+  border-bottom: solid #fff;
+}
+
+.cards_title {
+  font-size: 1.3rem;
+  font-family: cursive;
+  color: gray;
+  position: absolute;
+  top: 4rem;
+  left: 3rem;
+}
+
+.cards_rating {
+  height: 3rem;
+  width: 12rem;
+  position: absolute;
+  top: 1.5rem;
+  left: 19rem;
+  display: inline;
+}
+
+.cards .fa-star {
+  font-size: 1.2rem;
+  color: yellow;
+}
+
+.score {
+  height: 240px;
+  width: 100%;
+  background-color: #2b2b2b;
+  position: relative;
+}
+
+.score_heading {
+  height: 15rem;
+  width: 35rem;
+  position: absolute;
+  left: 3rem;
+}
+
+.score_food {
+  background-clip: text;
+  font-size: 1.5rem;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: -webkit-gradient(linear, left top, right top, from(#fC2547), color-stop(50%, #ff5a00), to(yellow));
+  background-image: linear-gradient(to right, #fC2547 0%, #ff5a00 50%, yellow 100%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.score_aim {
+  font-family: "Grand Hotel", sans-serif;
+  font-size: 5.5rem;
+  line-height: 4.4rem;
+  color: #fff;
+  position: absolute;
+  top: 6rem;
+}
+
+.score_iconsbar {
+  height: 12rem;
+  width: 45rem;
+  position: absolute;
+  top: 6rem;
+  left: 64rem;
+}
+
+.score_icon-div1 {
+  height: 12rem;
+  width: 13rem;
+  text-align: center;
+  position: absolute;
+}
+
+.score_icon-div2 {
+  height: 12rem;
+  width: 13rem;
+  position: absolute;
+  left: 14.7rem;
+  text-align: center;
+}
+
+.score_icon-div3 {
+  height: 12rem;
+  width: 13rem;
+  position: absolute;
+  left: 30rem;
+  text-align: center;
+}
+
+.score_icon {
+  height: 6rem;
+  width: 6rem;
+  position: absolute;
+  left: 3rem;
+}
+
+.score_icon-color {
+  background-clip: text;
+  font-size: 3.5rem;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: -webkit-gradient(linear, left top, right top, from(#fC2547), color-stop(50%, #ff5a00), to(yellow));
+  background-image: linear-gradient(to right, #fC2547 0%, #ff5a00 50%, yellow 100%);
+  position: absolute;
+  top: 1rem;
+  left: 0.5rem;
+}
+
+.score_count {
+  font-size: 2.5rem;
+  position: absolute;
+  top: 6rem;
+  left: 3rem;
+  color: #fff;
+}
+
+.score_text {
+  font-size: 2rem;
+  color: #fff;
+  position: absolute;
+  top: 8rem;
+  font-family: sans-serif;
+  top: 10rem;
+  left: 0rem;
+}
+
+.navbar {
+  height: 100px;
+  width: 100%;
+  background-color: #2B2B2B;
+  position: absolute;
+  position: fixed;
+  background-attachment: fixed;
+  top: 0;
+  z-index: 20;
+}
+
+.navbar_logo {
+  height: 70px;
+  width: 120px;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+
+.navbar_logo_image {
+  height: 60px;
+  width: 90px;
+  cursor: pointer;
+  -webkit-animation: moveinleft1 2s;
+          animation: moveinleft1 2s;
+}
+
+.navbar_menu {
+  height: 40px;
+  width: 550px;
+  position: absolute;
+  top: 35px;
+  left: 350px;
+}
+
+.navbar_li {
+  display: inline;
+  color: white;
+  padding-left: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  cursor: pointer;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.navbar_li:hover {
+  color: grey;
+}
+
+.navbar_icons-bar {
+  height: 50px;
+  width: 250px;
+  position: absolute;
+  top: 28px;
+  left: 70%;
+}
+
+.fa-shopping-bag {
+  font-size: 35px;
+  color: white;
+  position: absolute;
+  left: 120px;
+  cursor: pointer;
+}
+
+.fa-user {
+  font-size: 35px;
+  color: white;
+  position: absolute;
+  left: 180px;
+  cursor: pointer;
+}
+
+.review {
+  height: 106rem;
+  width: 100%;
+  background-color: #0D0D0D;
+  position: relative;
+  top: -1px;
+}
+
+.review_background {
+  height: 46rem;
+  background-image: url(/img/test-banner.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.3;
+}
+
+.review_div {
+  height: 40rem;
+  width: 50.6rem;
+  position: absolute;
+  top: 3rem;
+  left: 36rem;
+  text-align: center;
+}
+
+.review_image {
+  height: 10rem;
+  width: 39rem;
+  position: absolute;
+  top: 11rem;
+  left: 8rem;
+}
+
+.review_image-1 {
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  left: 15rem;
+  border-radius: 5rem;
+}
+
+.review_image-2 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 3.5rem;
+  position: absolute;
+  top: 2rem;
+  left: 4.5rem;
+}
+
+.review_image-3 {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 3.5rem;
+  position: absolute;
+  top: 2rem;
+  left: 28rem;
+}
+
+.review_title {
+  height: 12rem;
+  width: 32rem;
+  position: absolute;
+  top: 22rem;
+  left: 12rem;
+  text-align: center;
+}
+
+.review_name {
+  font-size: 1.8rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #F22546;
+  font-weight: bold;
+}
+
+.review_city {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-top: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.review_text {
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.review_slider {
+  height: 5rem;
+  width: 15rem;
+  position: absolute;
+  top: 32rem;
+  left: 23.5rem;
+}
+
+.review_slider-1 {
+  height: 17px;
+  width: 17px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 13px;
+  position: absolute;
+  top: 5px;
+}
+
+.review_slider-2 {
+  height: 17px;
+  width: 17px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 13px;
+  position: absolute;
+  top: 5px;
+  left: 2.7rem;
+}
+
+.review_slider-3 {
+  height: 17px;
+  width: 17px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 13px;
+  position: absolute;
+  top: 5px;
+  left: 5.5rem;
+}
+
+.review_slider-4 {
+  height: 17px;
+  width: 17px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 13px;
+  position: absolute;
+  top: 5px;
+  height: 2.5rem;
+  background-color: #fff;
+  width: 2.5rem;
+  left: 8.5rem;
+  top: 0;
+}
+
+.header {
+  height: 70rem;
+  width: 100%;
+  background-color: #2B2B2B;
+  position: relative;
+  z-index: 5;
+}
+
+.header_head {
+  height: 50rem;
+  width: 100%;
+  background-color: #1D1D1D;
+  position: absolute;
+  top: 11rem;
+  text-align: center;
+}
+
+.header_main {
+  height: 42rem;
+  width: 123rem;
+  position: absolute;
+  top: 3.5rem;
+  left: 3rem;
+}
+
+.header_heading {
+  height: 21rem;
+  width: 35rem;
+  position: absolute;
+  top: 5rem;
+  left: 33%;
+  text-align: center;
+}
+
+.header_heading-1 {
+  color: #c0bebe;
+  font-size: 1.6rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  left: 6.9rem;
+}
+
+.header_heading-2 {
+  font-size: 4.5rem;
+  color: #fff;
+  font-family: "Grand hotel", sans-serif;
+  position: absolute;
+  top: 3rem;
+  left: 2rem;
+  width: 30rem;
+  line-height: 5rem;
+  -webkit-animation: toptobottom 2s;
+          animation: toptobottom 2s;
+}
+
+.header_heading-3 {
+  color: #c0bebe;
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  left: 1rem;
+  top: 14rem;
+  -webkit-animation: top 2s;
+          animation: top 2s;
+}
+
+.header_image-1 {
+  height: 25.4rem;
+  width: 18.4rem;
+  position: absolute;
+  left: 104.9rem;
+  top: 1.9rem;
+}
+
+.header_image-2 {
+  position: absolute;
+  left: 70%;
+  top: 3rem;
+  -webkit-animation: rotation2 8s infinite linear;
+          animation: rotation2 8s infinite linear;
+}
+
+.header_image-3 {
+  height: 17.5rem;
+  width: 17.5rem;
+  position: absolute;
+  left: 14%;
+  top: 7rem;
+  -webkit-animation: rotation 8s infinite linear;
+          animation: rotation 8s infinite linear;
+}
+
+.header_image-4 {
+  height: 15rem;
+  width: 11rem;
+  position: absolute;
+  top: 22rem;
+  left: -1rem;
+}
+
+.header-icons {
+  height: 20rem;
+  width: 6rem;
+  position: absolute;
+  top: 2.5rem;
+  display: block;
+}
+
+.header .fa-facebook-f {
+  color: #fff;
+  font-size: 3.5rem;
+  position: absolute;
+  top: 0.2rem;
+  cursor: pointer;
+  left: 1.6rem;
+}
+
+.header .fa-instagram {
+  color: #fff;
+  font-size: 3.5rem;
+  position: absolute;
+  top: 5.2rem;
+  left: 1.2rem;
+  cursor: pointer;
+}
+
+.header .fa-linkedin-in {
+  color: #fff;
+  font-size: 3.5rem;
+  position: absolute;
+  top: 9.6rem;
+  left: 1.2rem;
+  cursor: pointer;
+}
+
+.header .fa-twitter {
+  color: #fff;
+  font-size: 3.5rem;
+  position: absolute;
+  top: 14.2rem;
+  left: 1.2rem;
+  cursor: pointer;
+}
+
+.header_location {
+  height: 7rem;
+  width: 70%;
+  background-color: #2D2D2D;
+  position: absolute;
+  left: 18.5rem;
+  top: 30.8rem;
+  border-radius: 4rem;
+}
+
+.header_location-div {
+  height: 5rem;
+  width: 42rem;
+  position: absolute;
+  top: 1.5rem;
+}
+
+.header_location .fa-map-marker-alt {
+  color: #595959;
+  font-size: 3.5rem;
+  position: absolute;
+  left: 4rem;
+}
+
+.header_location-text {
+  color: #595959;
+  font-size: 2rem;
+  font-family: "Grand Hotel", Geneva, Tahoma, sans-serif;
+  position: absolute;
+  left: 9rem;
+  top: 0.8rem;
+}
+
+.header .link:hover {
+  color: gray;
+}
+
+.footer {
+  height: 600px;
+  width: 100%;
+  background-color: #2d2d2d;
+  position: absolute;
+  top: 2920px;
+}
+
+.footer_basic-text {
+  height: 350px;
+  width: 450px;
+  position: absolute;
+  top: 20px;
+  left: 60px;
+  -webkit-animation: lefttoright 1s;
+          animation: lefttoright 1s;
+}
+
+.footer_basic-text-1 {
+  font-size: 17px;
+  color: #f22546;
+  font-family: sans-serif;
+  margin-top: 50px;
+}
+
+.footer_basic-text-2 {
+  font-family: "Grand hotel", sans-serif;
+  font-size: 75px;
+  color: white;
+  line-height: 80px;
+}
+
+.footer_basic-para {
+  height: 250px;
+  width: 450px;
+  position: absolute;
+  top: 70px;
+  left: 660px;
+}
+
+.footer_basic-para-1 {
+  font-size: 17px;
+  color: white;
+  font-family: sans-serif;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.footer_basic-para-1:hover {
+  font-size: 19px;
+}
+
+.footer_basic-para-2 {
+  font-size: 17px;
+  color: white;
+  font-family: sans-serif;
+  margin-top: 42px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.footer_basic-para-2:hover {
+  font-size: 19px;
+}
+
+.footer_last {
+  height: 150px;
+  width: 1000px;
+  position: absolute;
+  top: 390px;
+  left: 170px;
+}
+
+.footer_last-bulb-1 {
+  height: 150px;
+  width: 250px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.footer_last-bulb-1:hover {
+  top: -15px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0rem 1rem 1rem rgba(255, 254, 254, 0.2);
+          box-shadow: 0rem 1rem 1rem rgba(255, 254, 254, 0.2);
+}
+
+.footer_last-bulb-2 {
+  height: 150px;
+  width: 250px;
+  text-align: center;
+  position: absolute;
+  left: 330px;
+  top: 0;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.footer_last-bulb-2:hover {
+  top: -15px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0rem 1rem 1rem rgba(255, 254, 254, 0.2);
+          box-shadow: 0rem 1rem 1rem rgba(255, 254, 254, 0.2);
+}
+
+.footer_last-bulb-3 {
+  height: 150px;
+  width: 250px;
+  text-align: center;
+  position: absolute;
+  left: 660px;
+  top: 0;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.footer_last-bulb-3:hover {
+  top: -15px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0rem 1rem 1rem rgba(255, 254, 254, 0.2);
+          box-shadow: 0rem 1rem 1rem rgba(255, 254, 254, 0.2);
+}
+
+.footer_last-text {
+  font-size: 17px;
+  font-family: sans-serif;
+  color: white;
+  margin-top: 95px;
+}
+
+.footer_icon {
+  background-clip: text;
+  font-size: 75px;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: -webkit-gradient(linear, left top, right top, from(#fc2547), color-stop(50%, #ff5a00), to(yellow));
+  background-image: linear-gradient(to right, #fc2547 0%, #ff5a00 50%, yellow 100%);
+  position: absolute;
+  top: 10px;
+  left: 95px;
+}
+/*# sourceMappingURL=main.css.map */

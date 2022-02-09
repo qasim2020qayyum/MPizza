@@ -1,0 +1,158 @@
+.header {
+    height: 70rem;
+    width: 100%;
+    background-color: $dark-gray;
+    position: relative;
+    z-index: 5;
+    &_head {
+        height: 50rem;
+        width: 100%;
+        background-color: $light-black;
+        position: absolute;
+        top: 11rem;
+        text-align: center;
+    }
+    &_main {
+        height: 42rem;
+        width: 123rem;
+        position: absolute;
+        top: 3.5rem;
+        left: 3rem;
+    }
+    &_heading {
+        height: 21rem;
+        width: 35rem;
+        position: absolute;
+        top: 5rem;
+        left: 33%;
+        text-align: center;
+        &-1 {
+            color: $color-light-gray;
+            font-size: 1.6rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            position: absolute;
+            left: 6.9rem;
+        }
+        &-2 {
+            font-size: 4.5rem;
+            color: $color-white;
+            font-family: "Grand hotel", sans-serif;
+            position: absolute;
+            top: 3rem;
+            left: 2rem;
+            width: 30rem;
+            line-height: 5rem;
+            animation: toptobottom 2s;
+        }
+        &-3 {
+            color: $color-light-gray;
+            font-size: 1.2rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            position: absolute;
+            left: 1rem;
+            top: 14rem;
+            animation: top 2s;
+        }
+    }
+    &_image {
+        &-1 {
+            height: 25.4rem;
+            width: 18.4rem;
+            position: absolute;
+            left: 104.9rem;
+            top: 1.9rem;
+        }
+        &-2 {
+            position: absolute;
+            left: 70%;
+            top: 3rem;
+            animation: rotation2 8s infinite linear;
+        }
+        &-3 {
+            height: 17.5rem;
+            width: 17.5rem;
+            position: absolute;
+            left: 14%;
+            top: 7rem;
+            animation: rotation 8s infinite linear;
+        }
+        &-4 {
+            height: 15rem;
+            width: 11rem;
+            position: absolute;
+            top: 22rem;
+            left: -1rem;
+        }
+    }
+    &-icons {
+        height: 20rem;
+        width: 6rem;
+        position: absolute;
+        top: 2.5rem;
+        display: block;
+    }
+    .fa-facebook-f {
+        color: $color-white;
+        font-size: 3.5rem;
+        position: absolute;
+        top: 0.2rem;
+        cursor: pointer;
+        left: 1.6rem;
+    }
+    .fa-instagram {
+        color: $color-white;
+        font-size: 3.5rem;
+        position: absolute;
+        top: 5.2rem;
+        left: 1.2rem;
+        cursor: pointer;
+    }
+    .fa-linkedin-in {
+        color: $color-white;
+        font-size: 3.5rem;
+        position: absolute;
+        top: 9.6rem;
+        left: 1.2rem;
+        cursor: pointer;
+    }
+    .fa-twitter {
+        color: $color-white;
+        font-size: 3.5rem;
+        position: absolute;
+        top: 14.2rem;
+        left: 1.2rem;
+        cursor: pointer;
+    }
+    &_location {
+        height: 7rem;
+        width: 70%;
+        background-color: $light-black-2;
+        position: absolute;
+        left: 18.5rem;
+        top: 30.8rem;
+        border-radius: 4rem;
+        &-div {
+            height: 5rem;
+            width: 42rem;
+            position: absolute;
+            top: 1.5rem;
+        }
+        .fa-map-marker-alt {
+            color: $color-gray-2;
+            font-size: 3.5rem;
+            position: absolute;
+            left: 4rem;
+        }
+        &-text {
+            color:$color-gray-2;
+            font-size: 2rem;
+            font-family: "Grand Hotel", Geneva, Tahoma, sans-serif;
+            position: absolute;
+            left: 9rem;
+            top: 0.8rem;
+        }
+    }
+    .link:hover{
+        color: $color-gray;
+    }
+}

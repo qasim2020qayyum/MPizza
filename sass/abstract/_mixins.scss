@@ -1,0 +1,16 @@
+@mixin cards {
+    height: 33rem;
+    width: 29rem;
+    overflow: hidden;
+    position: absolute;
+}
+@mixin  review {
+    height:17px;
+    width:17px;
+    background-color: transparent;
+    border:2px solid white;
+    border-radius: 13px;
+    position: absolute;
+    top:5px;
+    
+}

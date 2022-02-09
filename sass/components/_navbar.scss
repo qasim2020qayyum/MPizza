@@ -1,0 +1,64 @@
+.navbar{
+    height:100px;
+    width:100%;
+    background-color: #2B2B2B;
+    position: absolute;
+    position: fixed;
+    background-attachment: fixed;
+    top:0;
+    z-index: 20;
+    &_logo{
+        height:70px;
+        width:120px;
+        position: absolute;
+        top:20px;
+        left:50px;
+        &_image{
+            height:60px;
+            width:90px;
+            cursor:pointer;
+            animation: moveinleft1 2s;
+        }
+    }
+    &_menu{
+        height:40px;
+        width:550px;
+        position:absolute;
+        top:35px;
+        left:350px;
+    }
+    &_li{
+        display: inline;
+        color:white;
+        padding-left: 60px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        cursor: pointer;
+        transition: all .2s;
+        &:hover{
+            color:grey;
+        }
+    }
+    &_icons-bar{
+        height:50px;
+        width:250px;
+        position: absolute;
+        top:28px;
+        left:70%
+    }
+}
+.fa-shopping-bag{
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    left:120px;
+    cursor: pointer;
+}
+.fa-user{
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    left:180px;
+    cursor:pointer;
+}

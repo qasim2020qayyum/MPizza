@@ -1,0 +1,15 @@
+@import "./abstract/mixins";
+@import "./abstract/variable";
+     
+@import "./base/animation";  
+
+@import "./base/base";
+
+@import "./components/apps";
+@import "./components/cards";
+@import "./components/score";
+@import "./components/navbar";  
+@import "./components/review";
+
+@import "./layout/header";
+@import "./layout/footer";

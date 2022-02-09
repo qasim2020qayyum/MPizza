@@ -1,0 +1,106 @@
+.review {
+    height: 106rem;
+    width: 100%;
+    background-color: $color-dark-black;
+    position: relative;
+    top: -1px;
+    &_background {
+        height: 46rem;
+        background-image: url(/img/test-banner.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.3;
+    }
+    &_div {
+        height: 40rem;
+        width: 50.6rem;
+        position: absolute;
+        top: 3rem;
+        left: 36rem;
+        text-align: center;
+    }
+    &_image {
+        height: 10rem;
+        width: 39rem;
+        position: absolute;
+        top: 11rem;
+        left: 8rem;
+        &-1 {
+            height: 10rem;
+            width: 10rem;
+            position: absolute;
+            left: 15rem;
+            border-radius: 5rem;
+        }
+        &-2 {
+            height: 7rem;
+            width: 7rem;
+            border-radius: 3.5rem;
+            position: absolute;
+            top: 2rem;
+            left: 4.5rem;
+        }
+        &-3 {
+            height: 7rem;
+            width: 7rem;
+            border-radius: 3.5rem;
+            position: absolute;
+            top: 2rem;
+            left: 28rem;
+        }
+    }
+    &_title {
+        height: 12rem;
+        width: 32rem;
+        position: absolute;
+        top: 22rem;
+        left: 12rem;
+        text-align: center;
+    }
+    &_name {
+        font-size: 1.8rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: $color-dark-pink;
+        font-weight: bold;
+    }
+    &_city {
+        font-size: 1.5rem;
+        color: $color-white;
+        margin-top: 4px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    &_text {
+        font-size: 1rem;
+        color: $color-white;
+        margin-top: 4px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    &_slider {
+        height: 5rem;
+        width: 15rem;
+        position: absolute;
+        top: 32rem;
+        left: 23.5rem;
+        &-1{
+          @include review;
+        }
+        &-2{
+            @include review;
+            left: 2.7rem;
+        }
+        &-3{
+            @include review;
+            left: 5.5rem;
+        }
+        &-4{
+            @include review;
+            height: 2.5rem;
+            background-color: $color-white;
+            width: 2.5rem;
+            left: 8.5rem;
+            top: 0;
+        }
+    }
+}
